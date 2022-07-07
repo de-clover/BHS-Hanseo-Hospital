@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+
+/* header part(반응형) */
+@media(max-width:1200px){
+    header{
+        width: 100%;
+    }
+    header .wrap .logo, header .wrap .menu_icon{
+        /* width: 200px; */
+    }
+    header .wrap nav{
+        width:100%;
+
+    }
+    header .wrap nav ul{}
+    header .wrap nav ul li{
+        margin-right: 3px;
+    }
+    header .wrap nav ul li a{
+        font-size: 16px;
+        padding: 0px;
+    }
+}
+
+@media(max-width:991px){
+    header{
+        width: 100%;
+    }
+    /* header .wrap .logo, header .wrap .menu_icon{
+        width: 250px;
+    }
+    header .wrap nav ul li a{
+        font-size: 14px;
+        padding: 0px;
+    } */
+
+}
+
+@media(max-width:767px){
+    header{
+        width: 100%;
+    }
+    /* header .wrap .logo, header .wrap .menu_icon{
+        width: 300px;
+    }
+    header .wrap nav{
+        width: 100%;
+    } */
+}

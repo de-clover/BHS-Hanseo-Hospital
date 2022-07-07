@@ -1,0 +1,23 @@
+>> common.js (header, footer, etc)
+>> common.css (header, footer, etc)
+
+1) main_page.html  --> header.html + footer.html 
+: common.css
+: main_page.css
+: common.js
+: main_page.js
+
+2) about.html
+: about.css
+: about.js
+
+
+3) facility.html
+: facility.css
+
+4) guide.html
+5) centers.html
+6) checkup.html
+7) customer.html
+: customer.css
+:
